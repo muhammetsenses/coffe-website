@@ -1,0 +1,86 @@
+.service {
+    padding-block: 5rem;
+    background-color: #ff0000;
+    color: white;
+  }
+  .service-title {
+    font-size: 3rem;
+  }
+  .service-card {
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    
+  }
+  
+  .service-info {
+    display: flex;
+    gap: 1rem;
+  
+    padding-left: 0;
+  }
+  .service-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding-inline: 1.5rem;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    transition: 0.5s;
+    height: 140px;
+  }
+  .service-item-icon {
+    height: 3.5rem;
+    width: 3.5rem;
+    color: red;
+  }
+  
+  .service-card:hover {
+    .service-icon {
+      background-color: rgb(173, 11, 11);
+    }
+    .service-item-icon {
+      color: white;
+    }
+  }
+  .service-img {
+    display: flex;
+    justify-content: center;
+  }
+  @media only screen and (max-width: 1200px){
+    .service-icon {
+      height: 120px;
+      width: 120px;
+    }
+    .service-img-content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .service-img{
+      height: 450px;
+    }
+    
+  }
+  @media only screen and (max-width: 1000px){
+    
+    .service-body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 768px){
+    .service-icon {
+      height: 120px;
+      width: 120px;
+    }
+    .service-body h3{
+      font-size: 1.7rem;
+    }
+    .service-body p{
+      font-size: 1.1rem;
+    }
+  }

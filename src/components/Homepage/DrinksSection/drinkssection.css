@@ -1,0 +1,45 @@
+/* drinks */
+.drinks-content-title {
+    font-size: 2.6rem;
+    font-weight: 500;
+  }
+  .drinks-content-text {
+    color: rgb(201, 6, 6);
+    font-family: "Redressed", cursive;
+    font-size: 2rem;
+  }
+  
+  .drink-names {
+    text-decoration: none;
+    color: rgb(196, 12, 12);
+  }
+  
+  .drink-img {
+    transition: transform 0.3s;
+  }
+  .drink-img:hover {
+    transform: scale(1.25);
+  }
+
+  @media only screen and (max-width: 768px){
+    .drinks-content-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .drinks-content-text {
+      font-size: 1.25rem;
+    }
+    .drinks {
+        
+      --bs-gutter-y: 0;
+      
+    }
+    .drinks-content-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      
+    }
+    .drinks-content-text {
+      font-size: 1.25rem;
+    }
+  }
